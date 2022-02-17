@@ -72,15 +72,20 @@ body{
     background-color: var(--cta-color);
 }
 
-.container{
-    display: flex;
-}
 .rightimage{
     width:300px;
 }
 
 main{
-     height:calc(100vh - 60px - 60px);
+    padding: 40px;
+    height:calc(100vh - 60px - 60px);
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 500px;
 }
 
 footer{
