@@ -5,6 +5,7 @@
     --header-text-color:#1D2F6F;
     --secondary-color: #8390FA;
     --cta-color:#FAC748;
+    --box-shadow:8px 8px 0 rgba(2, 27, 22, 0.2);
 }
 
 *{
@@ -20,6 +21,8 @@ body{
 }
 
 .siteheader{
-
+    height: 80px;
+    box-shadow: var(--box-shadow);
+    
 }
 
