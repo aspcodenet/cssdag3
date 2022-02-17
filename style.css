@@ -23,6 +23,33 @@ body{
 .siteheader{
     height: 80px;
     box-shadow: var(--box-shadow);
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--header-text-color);
+    font-weight: 700;
+}
+
+.navmenu{
+    display:flex;
+    list-style: none;
+}
+
+.navicons{
+    display:flex;
+    list-style: none;
+}
+
+.logo{
+    font-size:26px;
+}
+
+.logoicon{
+    font-size:26px;
+    color: var(--secondary-color);
+}
+
+.logopart2{
+    color: var(--secondary-color);
 }
 
