@@ -6,6 +6,7 @@
     --secondary-color: #8390FA;
     --cta-color:#FAC748;
     --box-shadow:2px 2px 2px lightgray;
+    --text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 
@@ -69,4 +70,44 @@ body{
 
 .headeranchor:hover{
     background-color: var(--cta-color);
+}
+
+.container{
+    display: flex;
+}
+.rightimage{
+    width:300px;
+}
+
+main{
+     height:calc(100vh - 60px - 60px);
+}
+
+footer{
+    height:60px;
+    background-color: var(--secondary-color);
+}
+
+
+h1{
+    font-size: 30px;
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+h2{
+   color: var(--secondary-color);
+   letter-spacing: 3px;
+   margin: 10px;
+}
+
+    
+.ctabutton{
+    padding: 10px 20px;
+    margin: 30px;
+    border-radius: 8px;
+    font-weight:700;
+    background-color: var(--cta-color);
+    display:inline-block;
 }
