@@ -15,6 +15,7 @@
     margin:0;
     box-sizing: border-box;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -127,6 +128,7 @@ h2{
 
 .ctabutton:hover{
     background-color: white;
+    border: 1px solid black;
 }
 
 section{
@@ -160,3 +162,56 @@ section{
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
+
+
+.products,
+.contact{
+    min-height:100vh;
+    text-align: center;
+}
+
+
+.contact__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.contact__form__box{
+    font-size:22px;
+    margin:10px;
+    padding: 1px 5px;
+    border: 1px solid grey;
+}
+
+.contact__form__box__input{
+    padding:10px;
+    font-size: 20px;
+    border:none;
+    outline:none; 
+}
+
+
+
+.productgallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.productcard{
+    box-shadow: 10px 5px 5px grey;
+    border: 1px solid grey;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.productcard img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+} 
+
+
